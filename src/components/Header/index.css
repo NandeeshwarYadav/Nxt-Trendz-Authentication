@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.nav-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav-logo {
+  width: 120px;
+  background-size: cover;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.link {
+  font-size: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #475569;
+}
+.link-btn {
+  background-color: #0b69ff;
+  border-width: 0;
+  color: #ffffff;
+  font-size: 20px;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
